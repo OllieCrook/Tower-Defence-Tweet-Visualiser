@@ -9,3 +9,6 @@ The visualiser tracks a keyword/s entered into the backend. Every time a user tw
 
 ## How was this created?
 The project was created using HTML Canvas, Javascript and Python for the Twitter streamer.
+
+## Screenshots
+![A screenshot of the Tower Defence Game](https://github.com/OllieCrook/Tower-Defence-Tweet-Visualiser/blob/master/ss/Screenshot-Tweet-Visualiser.png?raw=true)
