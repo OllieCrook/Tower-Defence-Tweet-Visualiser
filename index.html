@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <title>Protect the castle!</title>
+    <meta charset="utf-8">
+    <meta name="Northern Dabblers" content="Tower Defence">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Game over used when horde reaches the castle -->
+        <div class="game-over">
+            <h1>GAME OVER</h1>
+            <p>Tweet #UCLanOpenDay to continue...</p>
+        </div>
+        <div class="row">
+            <!-- Three column wide Twitter feed -->
+            <div class="three columns twitter-feed">
+                <!-- Twitter feed script. -->
+
+                <a class="twitter-timeline"  href="https://twitter.com/search?q=%23uclanopenday%20OR%20uclan%20OR%20%23uclan" data-widget-id="930879794157322240"  data-height="2160px" data-chrome="noheader nofooter noborders noscrollbar">Tweets about #uclanopenday OR uclan OR #uclan</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>
+            <!-- Nine column wide Canvas -->
+            <div class="nine columns canvas-container">
+                <canvas id="mainCanvas" width="200" height="200">Please update your browser to view this content.</canvas>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
